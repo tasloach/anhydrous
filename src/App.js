@@ -15,7 +15,6 @@ function App() {
     <>
       <Router>
         <NavBar />
-        {/* <HeroSection /> */}
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/services" exact element={<Services />} />

@@ -8,7 +8,7 @@ export default function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Join the Adventure newsletter href receive our best vacation deals
+          Join the Adventure newsletter to receive our best vacation deals
         </p>
         <p className="footer-subscription-text">
           You can unsubscribe at any time.
@@ -53,16 +53,20 @@ export default function Footer() {
           </div>
           <div className="footer-link-items">
             <h2>Social Media</h2>
-            <a href="https://www.instagram.com" target="_blank">
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               Instagram
             </a>
-            <a href="https://www.facebook.com" target="_blank">
+            <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
               Facebook
             </a>
-            <a href="https://www.youtube.com" target="_blank">
+            <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
               YouTube
             </a>
-            <a href="https://www.twitter.com" target="_blank">
+            <a href="https://www.twitter.com" target="_blank" rel="noreferrer">
               Twitter
             </a>
           </div>
@@ -81,6 +85,7 @@ export default function Footer() {
               className="social-icon-link facebook"
               href="/"
               target="_blank"
+              rel="noreferrer"
               arial-label="Facebook"
             >
               <i className="fab fa-facebook-f"></i>
@@ -89,6 +94,7 @@ export default function Footer() {
               className="social-icon-link instagram"
               href="https://www.instagram.com"
               target="_blank"
+              rel="noreferrer"
               arial-label="Instagram"
             >
               <i className="fab fa-instagram"></i>
@@ -97,6 +103,7 @@ export default function Footer() {
               className="social-icon-link youtube"
               href="https://www.youtube.com"
               target="_blank"
+              rel="noreferrer"
               arial-label="YouTube"
             >
               <i className="fab fa-youtube"></i>
@@ -105,6 +112,7 @@ export default function Footer() {
               className="social-icon-link twitter"
               href="https://www.twitter.com"
               target="_blank"
+              rel="noreferrer"
               arial-label="Twitter"
             >
               <i className="fab fa-twitter"></i>
@@ -113,6 +121,7 @@ export default function Footer() {
               className="social-icon-link linkedin"
               href="https://www.linkedin.com/in/tasloach/"
               target="_blank"
+              rel="noreferrer"
               arial-label="LinkedIn"
             >
               <i className="fab fa-linkedin"></i>
